@@ -9,3 +9,5 @@ list2 = [chr(i) for i in range(ord('A'), ord('Z')+1)]
 list3 = list(string.punctuation) + [chr(i) for i in range(ord('!'), ord('/')+1)]
 #On transforme les int en str pour permettre une concaténation
 list4 = [str(i) for i in range(9)]
+#Mix de toutes les listes
+gigaliste = list1 + list2 + list3 + list4
